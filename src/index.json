@@ -1,0 +1,13 @@
+{
+  "$ref": "company-docs.json",
+  "paths": {
+    "$ref#company-paths": "company-docs.json#paths",
+    "$ref#vehicle-paths": "vehicle-docs.json#paths"
+  },
+  "components": {
+    "schemas": {
+      "$ref#company-schemas": "company-docs.json#components/schemas",
+      "$ref#vehicle-schemas": "vehicle-docs.json#components/schemas"
+    }
+  }
+}
